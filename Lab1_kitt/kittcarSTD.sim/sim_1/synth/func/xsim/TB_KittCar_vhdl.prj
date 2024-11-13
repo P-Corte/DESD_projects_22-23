@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"TB_KittCar_func_synth.vhd" \
+"../../../../../kittcarSTD.srcs/sim_1/new/TB_KittCar.vhd" \
+
+# Do not sort compile order
+nosort
